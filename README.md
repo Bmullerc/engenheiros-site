@@ -1,6 +1,9 @@
 # The Project
  This is a personal challenge and practice project using a real world case, my mother's school. Since it's a small school, it doesn't have a webpage, and I decided to make one using what I had learned this far. Since I started this project I've learned a lot of new things that I would like to change in this project, but it would demand too much time, so I decided to continue working with what I had and at least come to a presentable conclusion. My idea is to keep improving or even remaking this project with the new concepts and knowledge that I gain and learn.
  
+Images are random with a kids theme and placeholders from [Unplash](https://unsplash.com/)
+Text is placeholder aswell
+ 
 ## Figma Layout
 [Initial Design Idea](https://www.figma.com/file/3kHv3yqDSopYvmx0GZZqji/Layout-Escola?node-id=0%3A1)
 
