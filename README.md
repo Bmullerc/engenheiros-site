@@ -37,7 +37,7 @@
 
 ## What I would change or do differently
 
-- Use TailwindCSS for sure
+- Use TailwindCSS
 - Create the project using Vite
 - Start with Accessibility as a focus
-- Start with Mobile First
+- Start with Mobile first
