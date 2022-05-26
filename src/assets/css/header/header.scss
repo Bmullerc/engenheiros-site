@@ -1,0 +1,75 @@
+@import '../variables/variables.scss';
+
+.header--container {
+  background-color: $verde-principal;
+  position: relative;
+  min-height: 100vh;
+  overflow: hidden;
+
+  .header--content {
+    position: absolute;
+    top: 20%;
+    right: 0;
+    left: 0;
+    text-align: center;
+
+    .header--title {
+      font-weight: 700;
+      font-size: 3.5em;
+      text-align: center;
+      color: $white;
+    }
+
+    .header--subtitle {
+      font-weight: 400;
+      font-size: 2.1em;
+      text-align: center;
+      margin-top: -.3em;
+    }
+  }
+
+  .header--video {
+    height: 100%;
+    object-fit: fill;
+  }
+
+  .header--bgoverlay {
+    background-color: $verde-principal;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: .85;
+  }
+
+  @media (min-width: 768px) {
+
+    .header--content {
+      position: absolute;
+      top: 25%;
+      right: 0;
+      left: 0;
+
+      .header--title {
+        font-size: 4em;
+      }
+
+    }
+
+    .header--video {
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .header--bgoverlay {
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+  }
+}

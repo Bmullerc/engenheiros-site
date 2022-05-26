@@ -1,0 +1,76 @@
+button,
+input[type="submit"],
+input[type="reset"] {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+.popover--container {
+  position: relative;
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+.popover--container .popover--panel {
+  height: 700px;
+  width: 350px;
+  color: #FFF;
+  background-color: #202020;
+  padding: 2em 2em;
+  border-radius: 25px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+  text-align: center;
+}
+
+.popover--container .popover--panel .popover--title {
+  font-size: 2em;
+}
+
+.popover--container .popover--panel .popover--text {
+  margin-top: .5em;
+}
+
+.popover--container .greenpanel {
+  background-color: #2e7452;
+}
+
+.popover--container .bluepanel {
+  background-color: #547a9e;
+}
+
+.popover--container .redpanel {
+  background-color: #974343;
+}
+
+@media (min-width: 800px) {
+  .popover--container .popover--panel {
+    top: 25px;
+    height: 650px;
+    width: 800px;
+    border-radius: 65px;
+    overflow-y: none;
+    text-align: left;
+    padding: 2em 5em;
+  }
+  .popover--container .popover--panel .popover--title {
+    margin-top: 2.5em;
+  }
+  .popover--container .panel--center {
+    left: -60%;
+    margin: auto;
+  }
+  .popover--container .panel--left {
+    left: -128.5%;
+  }
+}
+/*# sourceMappingURL=popover.css.map */

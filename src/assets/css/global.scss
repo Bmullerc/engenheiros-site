@@ -1,0 +1,33 @@
+// Font Import
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700;800;900&family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,500&display=swap');
+@import './variables/variables.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+body {
+  font-size: 1.15rem;
+  font-family: 'Inter', sans-serif;
+  line-height: 1.7;
+  color: $quase-preto;
+  background-color: $white;
+  scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Noto Sans', sans-serif;
+  letter-spacing: -0.06em;
+}
+
+h3 {
+  font-size: 2em;
+}

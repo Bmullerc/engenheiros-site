@@ -1,0 +1,131 @@
+.navbar {
+  width: 100%;
+  height: 0px;
+  -webkit-box-shadow: 0px 2px 5px rgba(32, 32, 32, 0.3);
+          box-shadow: 0px 2px 5px rgba(32, 32, 32, 0.3);
+  background-color: #FFF;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: 10em;
+  z-index: 1000;
+  visibility: hidden;
+  font-size: .8em;
+}
+
+.navbar .logo--img {
+  text-decoration: none;
+  color: #2e7452;
+  font-weight: 700;
+  -webkit-transition: all .3s ease-out;
+  transition: all .3s ease-out;
+}
+
+.navbar .logo--img:hover {
+  color: #5FD79D;
+}
+
+.navbar .nav--list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 1.5em;
+  list-style: none;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-right: 4em;
+  -ms-flex-preferred-size: auto;
+      flex-basis: auto;
+  overflow: hidden;
+}
+
+.navbar .nav--list a {
+  text-decoration: none;
+  color: #202020;
+  display: inline-block;
+  position: relative;
+}
+
+.navbar .nav--list a:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #5FD79D;
+  -webkit-transition: -webkit-transform .25s ease-in-out;
+  transition: -webkit-transform .25s ease-in-out;
+  transition: transform .25s ease-in-out;
+  transition: transform .25s ease-in-out, -webkit-transform .25s ease-in-out;
+}
+
+.navbar .nav--list a:hover::after, .navbar .nav--list a:hover {
+  color: #2e7452;
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+}
+
+.navbar .nav--panel {
+  position: relative;
+  width: 350px;
+  height: 500px;
+  left: -700%;
+  background-color: #2e7452;
+  color: #FFF;
+  list-style: none;
+  border-radius: 25px;
+  padding: 2em 3em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: .6em;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-top: .2em;
+  margin-left: auto;
+  margin-left: auto;
+  -webkit-transition: all .3s ease-out;
+  transition: all .3s ease-out;
+}
+
+.navbar .nav--panel a {
+  text-decoration: none;
+  color: #FFF;
+  -webkit-transition: all .3s ease-out;
+  transition: all .3s ease-out;
+}
+
+.navbar .nav--panel a:hover {
+  color: #5FD79D;
+  text-decoration: underline;
+}
+
+@media (min-width: 768px) {
+  .navbar {
+    visibility: visible;
+    height: 50px;
+  }
+}
+/*# sourceMappingURL=navbar.css.map */

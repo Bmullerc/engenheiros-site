@@ -1,0 +1,122 @@
+.contact--container {
+  min-height: 500px;
+  background-color: #202020;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: #FFF;
+  font-size: .7em;
+  z-index: -2;
+  margin-top: -6em;
+  padding-top: 6em;
+}
+
+.contact--container .address--container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-inline: auto;
+  padding-block: 3em;
+  gap: 2em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact--container .address--container i {
+  margin-block: 1em;
+}
+
+.contact--container .address--container a {
+  text-decoration: none;
+  color: #5FD79D;
+}
+
+.contact--container .address--container a:hover {
+  color: #2e7452;
+  text-shadow: 0px 1px 1px #2e7452;
+}
+
+.contact--container .address--container .address--content {
+  padding: 1em 1em;
+  line-height: 1.6;
+  margin-top: 5em;
+}
+
+.contact--container .address--container .address--iframe {
+  width: 90vw;
+  height: 50vh;
+}
+
+.contact--container .extra--container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: .8em;
+}
+
+.contact--container .extra--container a {
+  text-decoration: none;
+  color: #FFF;
+}
+
+.contact--container .extra--container a:hover {
+  color: #5FD79D;
+  text-shadow: 0px 1px 1px #2e7452;
+}
+
+.contact--container .address--copyright {
+  text-align: center;
+  font-size: 1em;
+  margin-bottom: 1em;
+}
+
+.contact--container .logo--img {
+  text-align: center;
+  text-decoration: none;
+  color: #5FD79D;
+  font-size: 1.3em;
+  -webkit-transition: all .3s ease-out;
+  transition: all .3s ease-out;
+  font-weight: 700;
+}
+
+.contact--container .logo--img:hover {
+  color: #2e7452;
+}
+
+@media (min-width: 768px) {
+  .contact--container .address--container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 5em;
+  }
+  .contact--container .address--container .address--iframe {
+    width: 500px;
+    height: 350px;
+  }
+}
+/*# sourceMappingURL=contact.css.map */

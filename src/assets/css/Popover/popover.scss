@@ -1,0 +1,83 @@
+@import '../variables/variables.scss';
+
+
+button,
+input[type="submit"],
+input[type="reset"] {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+.popover--container {
+  position: relative;
+  transition: all 1s ease-in-out;
+
+  .popover--panel {
+    height: 700px;
+    width: 350px;
+    color: $white;
+    background-color: $quase-preto;
+    padding: 2em 2em;
+    border-radius: 25px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+    text-align: center;
+
+    .popover--title {
+      font-size: 2em;
+    }
+
+    .popover--text {
+      margin-top: .5em;
+    }
+  }
+
+  .greenpanel {
+    background-color: $verde-secundario;
+  }
+
+  .bluepanel {
+    background-color: $azul-secundario;
+  }
+
+  .redpanel {
+    background-color: $vermelho-secundario;
+  }
+}
+
+@media (min-width: 800px) {
+  .popover--container {
+
+    .popover--panel {
+      top: 25px;
+      height: 650px;
+      width: 800px;
+      border-radius: 65px;
+      overflow-y: none;
+      text-align: left;
+      padding: 2em 5em;
+
+      .popover--title {
+        margin-top: 2.5em;
+      }
+    }
+
+    .panel--center {
+      left: -60%;
+      margin: auto;
+    }
+
+    .panel--left {
+      left: -128.5%;
+    }
+  }
+}

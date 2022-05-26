@@ -1,0 +1,43 @@
+@import '../variables/variables.scss';
+
+.gallery--container {
+  min-height: 800px;
+  text-align: center;
+  padding: 5em 5em;
+  background-image: url(../../images/Fundo-vermelho-ondas.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: -1em;
+  position: relative;
+
+  .gallery--title {
+    margin-top: 1em;
+    color: $white;
+    font-size: 2.5em;
+  }
+
+  .gallery--content {
+    height: 100%;
+    margin-top: 3em;
+    margin-inline: auto;
+    cursor: pointer;
+
+    img {
+      border-radius: 25px;
+    }
+  }
+
+  @media (min-width: 768px) {
+      padding-inline: 10em;
+
+      .gallery--content {
+        max-width: 50%;
+      }
+  }
+}
+
+.image--container {
+  width: 100%;
+  height: 100%;
+}

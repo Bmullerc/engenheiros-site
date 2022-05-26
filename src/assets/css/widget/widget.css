@@ -1,0 +1,65 @@
+.widget--container {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.widget--container .widget--btn {
+  font-size: 2em;
+  color: #2e7452;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.widget--container .widget--btn:hover {
+  color: #feffd7;
+  -webkit-transform: scale(1.25);
+          transform: scale(1.25);
+}
+
+.widget--container .widget--panel {
+  background-color: #2e7452;
+  color: #feffd7;
+  width: 250px;
+  height: 170px;
+  border-radius: 45px;
+  padding: 2em 1.5em;
+  text-align: center;
+}
+
+.widget--container .widget--panel .widget--links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 1em;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 2em;
+}
+
+.widget--container .widget--panel .widget--links a {
+  text-decoration: none;
+  color: #feffd7;
+}
+
+.widget--container .widget--panel .widget--links a:hover {
+  color: #5FD79D;
+  -webkit-transform: scale(1.25);
+          transform: scale(1.25);
+}
+/*# sourceMappingURL=widget.css.map */

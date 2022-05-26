@@ -1,0 +1,348 @@
+.main--container {
+  background-color: #FFF;
+}
+
+.main--container #proposta .proposta--title {
+  text-align: center;
+  font-size: 2.5em;
+  padding-top: 2em;
+  color: #2e7452;
+}
+
+.main--container #proposta .proposta--content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-inline: 5rem;
+  gap: 1.5em;
+  margin-top: 3em;
+  max-width: 90%;
+  margin-inline: auto;
+}
+
+.main--container #proposta .proposta--content .retangulo {
+  height: 700px;
+  width: 350px;
+  background-color: #5FD79D;
+  border-radius: 25px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2em 3em;
+  text-align: center;
+  -webkit-transition: .4s all ease-out;
+  transition: .4s all ease-out;
+}
+
+.main--container #proposta .proposta--content .retangulo .circulo-dentro {
+  height: 240px;
+  width: 240px;
+  border-radius: 50%;
+  background-color: #2e7452;
+  margin: 0 auto;
+  margin-top: -.5em;
+  text-align: center;
+}
+
+.main--container #proposta .proposta--content .retangulo .darkgreen-circle::before {
+  content: "";
+  background-image: url(https://source.unsplash.com/random/249x249/?baby);
+  background-position: center;
+  background-size: contain;
+  position: relative;
+  display: block;
+  height: 220px;
+  width: 220px;
+  border-radius: 50%;
+  margin: auto;
+  top: 10px;
+  opacity: .75;
+}
+
+.main--container #proposta .proposta--content .retangulo .darkblue-circle {
+  background-color: #547a9e;
+}
+
+.main--container #proposta .proposta--content .retangulo .darkblue-circle::before {
+  content: "";
+  background-image: url(https://source.unsplash.com/random/250x250/?kids);
+  background-position: center;
+  background-size: contain;
+  position: relative;
+  display: block;
+  height: 220px;
+  width: 220px;
+  border-radius: 50%;
+  margin: auto;
+  top: 10px;
+  opacity: .75;
+}
+
+.main--container #proposta .proposta--content .retangulo .darkred-circle {
+  background-color: #974343;
+}
+
+.main--container #proposta .proposta--content .retangulo .darkred-circle::before {
+  content: "";
+  background-image: url(https://source.unsplash.com/random/251x251/?kids);
+  background-position: center;
+  background-size: contain;
+  position: relative;
+  display: block;
+  height: 220px;
+  width: 220px;
+  border-radius: 50%;
+  margin: auto;
+  top: 10px;
+  opacity: .75;
+}
+
+.main--container #proposta .proposta--content .retangulo h4 {
+  margin: 1em 0;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.main--container #proposta .proposta--content .retangulo:hover {
+  -webkit-transform: rotate(0.0035turn) scale(1.05);
+          transform: rotate(0.0035turn) scale(1.05);
+  cursor: pointer;
+  background-color: #2e7452;
+}
+
+.main--container #proposta .proposta--content .retangulo:hover h4,
+.main--container #proposta .proposta--content .retangulo:hover p {
+  color: #FFF;
+}
+
+.main--container #proposta .proposta--content .retangulo:hover .darkgreen-circle,
+.main--container #proposta .proposta--content .retangulo:hover .darkblue-circle,
+.main--container #proposta .proposta--content .retangulo:hover .darkred-circle {
+  background-color: #FFF;
+}
+
+.main--container #proposta .proposta--content .retangulo--maternal {
+  background-color: #8AC3F9;
+}
+
+.main--container #proposta .proposta--content .retangulo--maternal:hover {
+  background-color: #547a9e;
+}
+
+.main--container #proposta .proposta--content .retangulo--pre {
+  background-color: #ED8686;
+}
+
+.main--container #proposta .proposta--content .retangulo--pre:hover {
+  background-color: #974343;
+}
+
+.main--container #proposta .proposta--content .transition-opacity {
+  -webkit-transition: opacity;
+  transition: opacity;
+}
+
+.main--container #proposta .proposta--content .duration-75 {
+  -webkit-transition-delay: 100ms;
+          transition-delay: 100ms;
+}
+
+.main--container #proposta .proposta--content .duration-150 {
+  -webkit-transition-delay: 200ms;
+          transition-delay: 200ms;
+}
+
+.main--container #proposta .proposta--content .opacity-0 {
+  opacity: 0;
+}
+
+.main--container #proposta .proposta--content .opacity-100 {
+  opacity: 100;
+}
+
+.main--container #diferencial .diferencial--container {
+  background-image: url(../../images/Fundo-bege-ondas.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: -2em;
+  color: #1d0f02;
+  min-height: 700px;
+  text-align: center;
+  padding: 10em 5em;
+}
+
+.main--container #diferencial .diferencial--container .diferencial--title {
+  margin-top: 2em;
+  font-size: 2.5em;
+  color: #2e7452;
+}
+
+.main--container #diferencial .diferencial--container .diferencial--content {
+  display: -ms-grid;
+  display: grid;
+  margin-block: 3em;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  gap: 3em;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: all .5s ease-out;
+  transition: all .5s ease-out;
+}
+
+.main--container #diferencial .diferencial--container .diferencial--content .diferencial--content-container {
+  padding-inline: 3em;
+}
+
+.main--container #diferencial .diferencial--container .diferencial--content .diferencial--content-container .diferencial--icon {
+  font-size: 4em;
+  margin-bottom: 1em;
+  color: #feffd7;
+}
+
+.main--container #diferencial .diferencial--container .diferencial--content .diferencial--content-container h4 {
+  font-size: 1.3em;
+  margin-top: -4em;
+  color: #feffd7;
+  letter-spacing: 0;
+}
+
+.main--container #diferencial .diferencial--container .diferencial--content .diferencial--content-container p {
+  margin-top: 1em;
+  font-weight: 400;
+  text-align: center;
+}
+
+.main--container #diferencial .diferencial--container .diferencial--content .diferencial--content-container .transition-opacity {
+  -webkit-transition: opacity;
+  transition: opacity;
+}
+
+.main--container #diferencial .diferencial--container .diferencial--content .diferencial--content-container .duration-75 {
+  -webkit-transition-delay: 100ms;
+          transition-delay: 100ms;
+}
+
+.main--container #diferencial .diferencial--container .diferencial--content .diferencial--content-container .duration-150 {
+  -webkit-transition-delay: 200ms;
+          transition-delay: 200ms;
+}
+
+.main--container #diferencial .diferencial--container .diferencial--content .diferencial--content-container .opacity-0 {
+  opacity: 0;
+}
+
+.main--container #diferencial .diferencial--container .diferencial--content .diferencial--content-container .opacity-100 {
+  opacity: 100;
+}
+
+.main--container #diferencial .diferencial--container .diferencial--content .quadrado {
+  height: 200px;
+  width: 200px;
+  background-color: #ED8686;
+  border-radius: 45px;
+  margin: 0 auto;
+  -webkit-transition: all .3s ease-out;
+  transition: all .3s ease-out;
+}
+
+.main--container #diferencial .diferencial--container .diferencial--content .quadrado:hover, .main--container #diferencial .diferencial--container .diferencial--content .quadrado:active {
+  background-color: #2e7452;
+  cursor: pointer;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.main--container #diferencial .diferencial--container .diferencial--content .quadrado--azul {
+  background-color: #8AC3F9;
+}
+
+.main--container #diferencial .diferencial--container .diferencial--content .quadrado--verde {
+  background-color: #5FD79D;
+}
+
+.main--container #diferencial .diferencial--container .diferencial--content h4 {
+  margin-top: .2em;
+}
+
+.main--container #metodologia .metodologia--content {
+  padding: 5em 2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main--container #metodologia .metodologia--content .metodologia--title {
+  text-align: left;
+  color: #2e7452;
+  font-size: 2.5em;
+}
+
+.main--container #metodologia .metodologia--content p {
+  margin-top: 2em;
+  line-height: 2;
+}
+
+.main--container #metodologia .metodologia--content ul {
+  list-style: none;
+  font-size: 1.5em;
+  font-weight: 500;
+  padding-top: 2em;
+}
+
+.main--container #metodologia .metodologia--content span {
+  font-size: 2em;
+  font-weight: 700;
+  color: #2e7452;
+}
+
+@media (min-width: 1000px) {
+  .main--container #proposta .proposta--content {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    padding-inline: 20em;
+    padding-top: 2em;
+    padding-bottom: 5em;
+    margin-top: 1em;
+  }
+  .main--container #diferencial .diferencial--container {
+    padding-inline: 20em;
+    padding-block: 3em;
+  }
+  .main--container #diferencial .diferencial--container .diferencial--content {
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+    min-height: 600px;
+  }
+  .main--container #metodologia {
+    padding-inline: 5em;
+  }
+  .main--container #metodologia .metodologia--content {
+    min-height: 600px;
+    padding: 5em 10em;
+  }
+  .main--container #metodologia .metodologia--content li {
+    padding-inline: 1em;
+  }
+}
+/*# sourceMappingURL=main.css.map */
