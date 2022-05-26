@@ -6,7 +6,7 @@
 
 ## Screenshots
 ### Mobile
-![Mobile Preview](mobile-preview.png)
+![Mobile Preview](mobile-pre.png)
 ![Mobile Menu](mobile-menu.png)
 ![Mobile Widget](mobile-widget.png)
 
